@@ -1,0 +1,64 @@
+{
+  "name": "rolling-rate-limiter-forked",
+  "version": "0.2.0",
+  "description": "Rate limiter that supports a rolling window, either in-memory or backed by redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/classdojo/rolling-rate-limiter"
+  },
+  "keywords": [
+    "rate",
+    "limiter",
+    "ratelimiter",
+    "redis",
+    "rolling",
+    "window"
+  ],
+  "author": {
+    "name": "Peter Hayes"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classdojo/rolling-rate-limiter/issues"
+  },
+  "homepage": "https://github.com/classdojo/rolling-rate-limiter",
+  "dependencies": {
+    "microtime-nodejs": "~1.0.0"
+  },
+  "devDependencies": {
+    "fakeredis": "~0.3.0",
+    "sinon": "~1.12.2",
+    "chai": "~1.10.0",
+    "async": "~0.9.0",
+    "mocha": "~2.1.0",
+    "redis": "~0.12.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "gitHead": "906ccdc9f17e3530b654b9fb398f550a2fe72f8a",
+  "_id": "rolling-rate-limiter-forked@0.2.0",
+  "_shasum": "55f61ecb3f97ebae737f275c05b394ae62654b75",
+  "_from": "rolling-rate-limiter-forked@0.2.*",
+  "_npmVersion": "1.4.18",
+  "_npmUser": {
+    "name": "confused",
+    "email": "prakhar007@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "confused",
+      "email": "prakhar007@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "55f61ecb3f97ebae737f275c05b394ae62654b75",
+    "tarball": "http://registry.npmjs.org/rolling-rate-limiter-forked/-/rolling-rate-limiter-forked-0.2.0.tgz"
+  },
+  "_resolved": "https://registry.npmjs.org/rolling-rate-limiter-forked/-/rolling-rate-limiter-forked-0.2.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
